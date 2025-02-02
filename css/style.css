@@ -1,0 +1,12 @@
+.image-fixed-size {
+    height: 400px; /* Set the desired height */
+    width: 300px;  /* Set the desired width */
+    object-fit: cover; /* Ensure the images cover the area while maintaining their aspect ratio */
+}
+
+.navbar {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1030; /* Ensures navbar stays above content */
+}
